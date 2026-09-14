@@ -1,15 +1,15 @@
 :root {
     font-family: sans-serif;
-    --primary-bg-color: hsl(0, 0%, 10%);
-    --secondary-bg-color: hsl(0, 0%, 20%);
-
-    --text-color: hsl(0, 0%, 90%);
+    --primary-bg-color: hsl(240, 30%, 10%);
+    --secondary-bg-color: hsl(240, 10%, 15%);
+    --primary-text-color: hsl(240, 10%, 90%);
+    --secondary-text-color: hsl(240, 10%, 70%);
 }
 
 * {
     margin: 0;
     padding: 0;
-    color: var(--text-color);
+    color: var(--primary-text-color);
 }
 
 html{
@@ -19,4 +19,7 @@ html{
 body {
     width: 1000px;
     margin: 0 auto;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
 }

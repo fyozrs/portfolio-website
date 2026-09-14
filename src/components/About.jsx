@@ -12,14 +12,16 @@ class Person {
 }
 
 const Mila = new Person('Mila', 'Kostovska');
+const Lorem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptas atque distinctio nihil pariatur mollitia! Quidem fugiat nihil a voluptate, quia corrupti ab mollitia possimus sequi iste, ea eius eaque!'
 
 const About = () => {
     return (
         <div id='about'>
-            <h2>About</h2>
+            <h3>About</h3>
             <p>{Mila.getName()}</p>
+            <p>{Lorem}</p>
         </div>
-    )
-}
+    );
+};
 
 export default About;

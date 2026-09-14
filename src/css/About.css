@@ -1,4 +1,17 @@
 #about {
-    width: 200px;
+    width: 400px;
     background-color: var(--secondary-bg-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 10rem;
+}
+
+#about p {
+    font-size: 20px;
+    color: var(--secondary-text-color);
+}
+
+#about h3 {
+    padding-bottom: 1rem;
+    font-size: 30px;
 }
