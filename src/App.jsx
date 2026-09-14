@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+// import { useState } from 'react'
+// import heroImg from './assets/hero.png'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from './assets/vite.svg'
 import './css/App.css'
+import About from './components/About'
+import Title from './components/Title'
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div id='main'>
+      <Title />
+      <About />
     </div>
-  )
+  );
 }
 
 export default App

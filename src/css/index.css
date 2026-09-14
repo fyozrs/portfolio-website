@@ -1,0 +1,22 @@
+:root {
+    font-family: sans-serif;
+    --primary-bg-color: hsl(0, 0%, 10%);
+    --secondary-bg-color: hsl(0, 0%, 20%);
+
+    --text-color: hsl(0, 0%, 90%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+html{
+    background-color: var(--primary-bg-color);
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
