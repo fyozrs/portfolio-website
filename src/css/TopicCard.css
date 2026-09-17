@@ -1,0 +1,25 @@
+#about {
+    width: 370px;
+    height: 220px;
+    padding: 1rem;
+    border-radius: .85rem;
+    background-color: var(--bg);
+    border: solid 1px var(--border);
+    border-top: solid 1px var(--highlight);
+    box-shadow: var(--shadow);
+    transition: 0.2s ease-in-out;
+}
+
+#about:hover {
+    background-color: var(--bg-light);
+}
+
+#about p {
+    font-size: 20px;
+    color: var(--text-muted);
+}
+
+#about h3 {
+    padding-bottom: 1rem;
+    font-size: 30px;
+}

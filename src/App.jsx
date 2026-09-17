@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './css/App.css'
-import About from './components/About'
 import Title from './components/Title'
+import AllCards from './components/AllCards';
+import SocialLinks from './components/SocialLinks';
+import Theme from './components/Theme'
 
 const App = () => {
   return (
     <div id='main'>
+      <Theme />
       <Title />
-      <About />
+      <SocialLinks />
+      <AllCards />
     </div>
   );
 };

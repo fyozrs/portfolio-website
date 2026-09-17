@@ -1,19 +1,48 @@
 :root {
     font-family: sans-serif;
-    --primary-bg-color: hsl(240, 30%, 10%);
-    --secondary-bg-color: hsl(240, 10%, 15%);
-    --primary-text-color: hsl(240, 10%, 90%);
-    --secondary-text-color: hsl(240, 10%, 70%);
+    --bg-dark: oklch(0.1 0.025 264);
+    --bg: oklch(0.15 0.025 264);
+    --bg-light: oklch(0.2 0.025 264);
+    --text: oklch(0.96 0.05 264);
+    --text-muted: oklch(0.76 0.05 264);
+    --highlight: oklch(0.5 0.05 264);
+    --border: oklch(0.4 0.05 264);
+    --border-muted: oklch(0.3 0.05 264);
+    --primary: oklch(0.76 0.1 264);
+    --secondary: oklch(0.76 0.1 84);
+    --danger: oklch(0.7 0.05 30);
+    --warning: oklch(0.7 0.05 100);
+    --success: oklch(0.7 0.05 160);
+    --info: oklch(0.7 0.05 260);
+
+    --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0 4px 4px hsla(0, 0%, 0%, 0.15);
+
+    --gradient: linear-gradient(0deg, var(--bg) 95%, var(--bg-light) 100%);
+    --gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+}
+
+[data-theme="light"] {
+    --bg-dark: oklch(0.92 0.025 264);
+    --bg: oklch(0.96 0.025 264);
+    --bg-light: oklch(1 0.025 264);
+    --text: oklch(0.15 0.05 264);
+    --text-muted: oklch(0.4 0.05 264);
+    --highlight: oklch(1 0.05 264);
+    --border: oklch(0.6 0.05 264);
+    --border-muted: oklch(0.7 0.05 264);
+    --primary: oklch(0.4 0.1 264);
+    --secondary: oklch(0.4 0.1 84);
+    --danger: oklch(0.5 0.05 30);
+    --warning: oklch(0.5 0.05 100);
+    --success: oklch(0.5 0.05 160);
+    --info: oklch(0.5 0.05 260);
 }
 
 * {
     margin: 0;
     padding: 0;
-    color: var(--primary-text-color);
-}
-
-html{
-    background-color: var(--primary-bg-color);
+    color: var(--text);
+    transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -22,4 +51,5 @@ body {
     margin-top: 5rem;
     padding: 1.5rem;
     border-radius: 1rem;
+    background-color: var(--bg-dark);
 }

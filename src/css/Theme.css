@@ -1,0 +1,9 @@
+.theme-option {
+    border: 1px solid var(--border);
+}
+
+#switch {
+    background-color: var(--bg-dark);
+    border: none;
+    cursor: pointer;
+}
