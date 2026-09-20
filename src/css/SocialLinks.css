@@ -4,8 +4,9 @@
     gap: 1rem;
 }
 
-.icons {
+.icons:hover {
     transition: 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 a:nth-child(3){

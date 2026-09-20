@@ -17,8 +17,8 @@ const Theme = () => {
 
     return (
         <div>
-            <button id='switch' onClick={toggleTheme} aria-label="Toggle theme"> 
-                <ImSwitch size='1.5rem' /> 
+            <button id='switch' onClick={toggleTheme} aria-label="Toggle theme">
+                <ImSwitch size='1.5rem' />
             </button>
         </div>
 

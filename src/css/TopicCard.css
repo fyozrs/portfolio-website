@@ -1,4 +1,4 @@
-#about {
+#topic-card {
     width: 370px;
     height: 220px;
     padding: 1rem;
@@ -10,16 +10,33 @@
     transition: 0.2s ease-in-out;
 }
 
-#about:hover {
+#topic-card:nth-child(2) {
+    width: 545px;
+}
+
+#topic-card:hover {
     background-color: var(--bg-light);
 }
 
-#about p {
+#topic-card p {
     font-size: 20px;
     color: var(--text-muted);
 }
 
-#about h3 {
+#topic-card h3 {
     padding-bottom: 1rem;
     font-size: 30px;
+}
+
+#topic-card h4 {
+    color: var(--info);
+    height: 1rem;
+    border-radius: .4rem;
+    margin: .5rem;
+}
+
+#title-role {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
 }
